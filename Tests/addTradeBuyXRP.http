@@ -1,0 +1,9 @@
+POST http://localhost:3000/addTrade HTTP/1.1
+content-type: application/json
+
+{
+    "side": "BUY",
+    "symbol": "XRP",
+    "quantity": "2000",
+    "price": "2.5"
+}

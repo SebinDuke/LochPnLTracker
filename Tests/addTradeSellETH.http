@@ -1,0 +1,9 @@
+POST http://localhost:3000/addTrade HTTP/1.1
+content-type: application/json
+
+{
+    "side": "SELL",
+    "symbol": "ETH",
+    "quantity": "2",
+    "price": "4000"
+}
